@@ -1,0 +1,338 @@
+#+TITLE: exercism/xerlang - reclassification of exercises
+
+* Foreword
+
+The [[http://exercism.io][=exercism=-project]] aims to be a platform for crowd-reviewing code
+snippets. All these code-snippets are provided as a solution of an
+exercise, which again is provided by exercism.
+
+There are a couple of language agnostic problem descriptions
+available. A languages maintainer can choose to implement them by
+adding a testsuite for that certain exercise.
+
+For the erlang-language there are 35 Problems available[fn:1], which
+are ordered more ore less randomly.
+
+This document aims to collect some data about difficulty and kind of
+the available exercises to reorganize the track.
+
+* The exercises
+
+** hello-world
+
+| User  | Difficulty | Proposed Tags |
+|-------+------------+---------------|
+| NobbZ |          1 |               |
+|-------+------------+---------------|
+|       |          1 |               |
+#+TBLFM: @>$2=vmean(@I$2..@II$2)
+
+** leap
+
+| User  | Difficulty | Proposed Tags |
+|-------+------------+---------------|
+| NobbZ |          1 | boolean, math |
+|-------+------------+---------------|
+|       |          1 |               |
+#+TBLFM: @>$2=vmean(@I$2..@II$2)
+
+** rna-transcription
+
+| User  | Difficulty | Proposed Tags                      |
+|-------+------------+------------------------------------|
+| NobbZ |          2 | lists, map, higher-order-functions |
+|-------+------------+------------------------------------|
+|       |          2 |                                    |
+#+TBLFM: @>$2=vmean(@I$2..@II$2)
+
+** accumulate
+
+| User  | Difficulty | Proposed Tags                 |
+|-------+------------+-------------------------------|
+| NobbZ |          1 | lists, higher-order-functions |
+|-------+------------+-------------------------------|
+|       |          1 |                               |
+#+TBLFM: @>$2=vmean(@I$2..@II$2)
+
+** bob
+
+| User  | Difficulty | Proposed Tags                   |
+|-------+------------+---------------------------------|
+| NobbZ |          2 | string-processing, conditionals |
+|-------+------------+---------------------------------|
+|       |          2 |                                 |
+#+TBLFM: @>$2=vmean(@I$2..@II$2)
+
+** sum-of-multiples
+
+| User  | Difficulty | Proposed Tags        |
+|-------+------------+----------------------|
+| NobbZ |          3 | lists, folding, math |
+|-------+------------+----------------------|
+|       |          3 |                      |
+#+TBLFM: @>$2=vmean(@I$2..@II$2)
+
+** strain
+
+| User  | Difficulty | Proposed Tags    |
+|-------+------------+------------------|
+| NobbZ |          2 | lists, recursion |
+|-------+------------+------------------|
+|       |          2 |                  |
+#+TBLFM: @>$2=vmean(@I$2..@II$2)
+
+** hamming
+
+| User  | Difficulty | Proposed Tags    |
+|-------+------------+------------------|
+| NobbZ |          2 | lists, recursion |
+|-------+------------+------------------|
+|       |          2 |                  |
+#+TBLFM: @>$2=vmean(@I$2..@II$2)
+
+** space-age
+
+| User  | Difficulty | Proposed Tags          |
+|-------+------------+------------------------|
+| NobbZ |          2 | math, pattern-matching |
+|-------+------------+------------------------|
+|       |          2 |                        |
+#+TBLFM: @>$2=vmean(@I$2..@II$2)
+
+** grains
+
+| User  | Difficulty | Proposed Tags   |
+|-------+------------+-----------------|
+| NobbZ |          2 | math, recursion |
+|-------+------------+-----------------|
+|       |          2 |                 |
+#+TBLFM: @>$2=vmean(@I$2..@II$2)
+
+** anagram
+
+| User  | Difficulty | Proposed Tags     |
+|-------+------------+-------------------|
+| NobbZ |          3 | string-processing |
+|-------+------------+-------------------|
+|       |          3 |                   |
+#+TBLFM: @>$2=vmean(@I$2..@II$2)
+
+** nucleotide-count
+
+| User  | Difficulty | Proposed Tags                                  |
+|-------+------------+------------------------------------------------|
+| NobbZ |          2 | lists, counting, validation, string-processing |
+|-------+------------+------------------------------------------------|
+|       |          2 |                                                |
+#+TBLFM: @>$2=vmean(@I$2..@II$2)
+
+** atbash-cipher
+
+| User  | Difficulty | Proposed Tags             |
+|-------+------------+---------------------------|
+| NobbZ |          3 | crypto, string-processing |
+|-------+------------+---------------------------|
+|       |          3 |                           |
+#+TBLFM: @>$2=vmean(@I$2..@II$2)
+
+** phone-number
+
+| User  | Difficulty | Proposed Tags                                 |
+|-------+------------+-----------------------------------------------|
+| NobbZ |          3 | string-processing, validation, transformation |
+|-------+------------+-----------------------------------------------|
+|       |          3 |                                               |
+#+TBLFM: @>$2=vmean(@I$2..@II$2)
+
+** robot-simulator
+
+| User  | Difficulty | Proposed Tags          |
+|-------+------------+------------------------|
+| NobbZ |          4 | state, list-processing |
+|-------+------------+------------------------|
+|       |          4 |                        |
+#+TBLFM: @>$2=vmean(@I$2..@II$2)
+
+** grade-school
+
+| User  | Difficulty | Proposed Tags          |
+|-------+------------+------------------------|
+| NobbZ |          4 | lists, key-value-store |
+|-------+------------+------------------------|
+|       |          4 |                        |
+#+TBLFM: @>$2=vmean(@I$2..@II$2)
+
+** binary
+
+| User  | Difficulty | Proposed Tags |
+|-------+------------+---------------|
+| NobbZ |          3 | deprecated    |
+|-------+------------+---------------|
+|       |          3 |               |
+#+TBLFM: @>$2=vmean(@I$2..@II$2)
+
+** word-count
+
+| User  | Difficulty | Proposed Tags            |
+|-------+------------+--------------------------|
+| NobbZ |          4 | string-processing, lists |
+|-------+------------+--------------------------|
+|       |          4 |                          |
+#+TBLFM: @>$2=vmean(@I$2..@II$2)
+
+** circular-buffer
+
+| User  | Difficulty | Proposed Tags |
+|-------+------------+---------------|
+| NobbZ |          7 | state         |
+|-------+------------+---------------|
+|       |          7 |               |
+#+TBLFM: @>$2=vmean(@I$2..@II$2)
+
+** etl
+
+| User  | Difficulty | Proposed Tags            |
+|-------+------------+--------------------------|
+| NobbZ |          6 | lists, key-value-storage |
+|-------+------------+--------------------------|
+|       |          6 |                          |
+#+TBLFM: @>$2=vmean(@I$2..@II$2)
+
+** clock
+
+| User  | Difficulty | Proposed Tags       |
+|-------+------------+---------------------|
+| NobbZ |          4 | math, abstract-data |
+|-------+------------+---------------------|
+|       |          4 |                     |
+#+TBLFM: @>$2=vmean(@I$2..@II$2)
+
+** gigasecond
+
+| User  | Difficulty | Proposed Tags  |
+|-------+------------+----------------|
+| NobbZ |          3 | math, calendar |
+|-------+------------+----------------|
+|       |          3 |                |
+#+TBLFM: @>$2=vmean(@I$2..@II$2)
+
+** beer-song
+
+| User  | Difficulty | Proposed Tags   |
+|-------+------------+-----------------|
+| NobbZ |          7 | text-generating |
+|-------+------------+-----------------|
+|       |          7 |                 |
+#+TBLFM: @>$2=vmean(@I$2..@II$2)
+
+** difference-of-squares
+
+| User  | Difficulty | Proposed Tags |
+|-------+------------+---------------|
+| NobbZ |          2 | math          |
+|-------+------------+---------------|
+|       |          2 |               |
+#+TBLFM: @>$2=vmean(@I$2..@II$2)
+
+** allergies
+
+| User  | Difficulty | Proposed Tags  |
+|-------+------------+----------------|
+| NobbZ |          4 | lists, bitmask |
+|-------+------------+----------------|
+|       |          4 |                |
+#+TBLFM: @>$2=vmean(@I$2..@II$2)
+
+** bank-account
+
+| User  | Difficulty | Proposed Tags |
+|-------+------------+---------------|
+| NobbZ |          6 | math, state   |
+|-------+------------+---------------|
+|       |          6 |               |
+#+TBLFM: @>$2=vmean(@I$2..@II$2)
+
+** luhn
+
+| User  | Difficulty | Proposed Tags |
+|-------+------------+---------------|
+| NobbZ |          6 | lists, math   |
+|-------+------------+---------------|
+|       |          6 |               |
+#+TBLFM: @>$2=vmean(@I$2..@II$2)
+
+** series
+
+| User  | Difficulty | Proposed Tags |
+|-------+------------+---------------|
+| NobbZ |          4 | lists         |
+|-------+------------+---------------|
+|       |          4 |               |
+#+TBLFM: @>$2=vmean(@I$2..@II$2)
+
+** trinary
+
+| User  | Difficulty | Proposed Tags |
+|-------+------------+---------------|
+| NobbZ |          3 | deprecated    |
+|-------+------------+---------------|
+|       |          3 |               |
+#+TBLFM: @>$2=vmean(@I$2..@II$2)
+
+** largest-series-product
+
+| User  | Difficulty | Proposed Tags |
+|-------+------------+---------------|
+| NobbZ |          5 | lists, math   |
+|-------+------------+---------------|
+|       |          1 |               |
+#+TBLFM: @>$2=vmean(@I$2..@II$2)
+
+** meetup
+
+| User  | Difficulty | Proposed Tags |
+|-------+------------+---------------|
+| NobbZ |          1 |               |
+|-------+------------+---------------|
+|       |          1 |               |
+#+TBLFM: @>$2=vmean(@I$2..@II$2)
+
+** parallel-letter-frequency
+
+| User  | Difficulty | Proposed Tags |
+|-------+------------+---------------|
+| NobbZ |          1 |               |
+|-------+------------+---------------|
+|       |          1 |               |
+#+TBLFM: @>$2=vmean(@I$2..@II$2)
+
+** triangle
+
+| User  | Difficulty | Proposed Tags |
+|-------+------------+---------------|
+| NobbZ |          1 |               |
+|-------+------------+---------------|
+|       |          1 |               |
+#+TBLFM: @>$2=vmean(@I$2..@II$2)
+
+** scrabble-score
+
+| User  | Difficulty | Proposed Tags |
+|-------+------------+---------------|
+| NobbZ |          1 |               |
+|-------+------------+---------------|
+|       |          1 |               |
+#+TBLFM: @>$2=vmean(@I$2..@II$2)
+
+** zipper"
+
+| User  | Difficulty | Proposed Tags |
+|-------+------------+---------------|
+| NobbZ |          1 |               |
+|-------+------------+---------------|
+|       |          1 |               |
+#+TBLFM: @>$2=vmean(@I$2..@II$2)
+
+* Footnotes
+
+[fn:1] At the time of writing this
