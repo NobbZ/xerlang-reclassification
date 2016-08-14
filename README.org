@@ -16,6 +16,15 @@ are ordered more ore less randomly.
 This document aims to collect some data about difficulty and kind of
 the available exercises to reorganize the track.
 
+* Instructions
+
+1. Fork
+2. Insert your notes into the tables below
+3. Do a pull-reqeuest
+
+You do not need to recalculate the average, also you don't need to
+take care of the formatting, I[fn:2] will reformat from time to time.
+
 * The exercises
 
 ** hello-world
@@ -292,47 +301,49 @@ the available exercises to reorganize the track.
 
 | User  | Difficulty | Proposed Tags |
 |-------+------------+---------------|
-| NobbZ |          1 |               |
+| NobbZ |          6 | calendar      |
 |-------+------------+---------------|
-|       |          1 |               |
+|       |          6 |               |
 #+TBLFM: @>$2=vmean(@I$2..@II$2)
 
 ** parallel-letter-frequency
 
-| User  | Difficulty | Proposed Tags |
-|-------+------------+---------------|
-| NobbZ |          1 |               |
-|-------+------------+---------------|
-|       |          1 |               |
+| User  | Difficulty | Proposed Tags                  |
+|-------+------------+--------------------------------|
+| NobbZ |          4 | concurrency, string-processing |
+|-------+------------+--------------------------------|
+|       |          4 |                                |
 #+TBLFM: @>$2=vmean(@I$2..@II$2)
 
 ** triangle
 
 | User  | Difficulty | Proposed Tags |
 |-------+------------+---------------|
-| NobbZ |          1 |               |
+| NobbZ |          2 | math          |
 |-------+------------+---------------|
-|       |          1 |               |
+|       |          2 |               |
 #+TBLFM: @>$2=vmean(@I$2..@II$2)
 
 ** scrabble-score
 
-| User  | Difficulty | Proposed Tags |
-|-------+------------+---------------|
-| NobbZ |          1 |               |
-|-------+------------+---------------|
-|       |          1 |               |
+| User  | Difficulty | Proposed Tags                  |
+|-------+------------+--------------------------------|
+| NobbZ |          3 | string-processing, math, lists |
+|-------+------------+--------------------------------|
+|       |          3 |                                |
 #+TBLFM: @>$2=vmean(@I$2..@II$2)
 
 ** zipper"
 
-| User  | Difficulty | Proposed Tags |
-|-------+------------+---------------|
-| NobbZ |          1 |               |
-|-------+------------+---------------|
-|       |          1 |               |
+| User  | Difficulty | Proposed Tags                             |
+|-------+------------+-------------------------------------------|
+| NobbZ |          8 | trees, abstract-data, functional-patterns |
+|-------+------------+-------------------------------------------|
+|       |          8 |                                           |
 #+TBLFM: @>$2=vmean(@I$2..@II$2)
 
 * Footnotes
+
+[fn:2] To be exact: my emacs
 
 [fn:1] At the time of writing this
